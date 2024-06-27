@@ -22,6 +22,7 @@ class Role(models.Model):
     name = models.CharField(max_length=50)
     permissions = models.ManyToManyField(Permission)
 
+  
 
 
 # Creating the RoleModel

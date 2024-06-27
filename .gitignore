@@ -1,0 +1,4 @@
+#  ignore the python bytecode and the python cache files
+
+*.py[cod]
+__pycache__/
