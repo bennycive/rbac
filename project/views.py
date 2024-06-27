@@ -7,7 +7,7 @@ from .decorators import has_permission
 
 # Create your views here.
 
-@has_permission
+@has_permission('retrive_job')
 def home(request):
     
     return HttpResponse(" Hellow Developer ")
